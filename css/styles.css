@@ -1,13 +1,22 @@
 .parallax_effect {
     background-position: center center;
-    background-size: cover;
+    background-size: 50%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 500px;
 }
 #parallax_1 {
-    background-image: url("https://images.pexels.com/photos/13836046/pexels-photo-13836046.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-image: url("https://images.pexels.com/photos/2533090/pexels-photo-2533090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 #parallax_2 {
-    background-image: url("https://images.pexels.com/photos/14185268/pexels-photo-14185268.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-image: url("https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+#parallax_3 {
+    background-image: url("https://images.pexels.com/photos/811029/pexels-photo-811029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+#parallax_4 {
+    background-image: url("https://images.pexels.com/photos/1761282/pexels-photo-1761282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+#parallax_5 {
+    background-image: url("https://images.pexels.com/photos/1051073/pexels-photo-1051073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
