@@ -1,22 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
 .parallax_effect {
-    background-position: center center;
-    background-size: 50%;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 500px;
 }
 #parallax_1 {
     background-image: url("https://images.pexels.com/photos/2533090/pexels-photo-2533090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: bottom center;
 }
 #parallax_2 {
     background-image: url("https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center center;
 }
 #parallax_3 {
     background-image: url("https://images.pexels.com/photos/811029/pexels-photo-811029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 #parallax_4 {
     background-image: url("https://images.pexels.com/photos/1761282/pexels-photo-1761282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center center;
 }
 #parallax_5 {
     background-image: url("https://images.pexels.com/photos/1051073/pexels-photo-1051073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+footer {
+    height: 150px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+footer > h2 {
+    text-transform: uppercase;
 }
